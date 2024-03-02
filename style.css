@@ -26,12 +26,12 @@ body {
 
 .services {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .service {
-    flex-basis: calc(25% - 20px);
+    width: 100%;
     margin: 20px 0;
     padding: 20px;
     text-align: center;
